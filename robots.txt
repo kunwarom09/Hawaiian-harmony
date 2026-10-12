@@ -1,0 +1,23 @@
+# robots.txt for Hawaiian Harmony
+# Domain: https://www.hawaiianharmonyofficial.us/
+
+User-agent: *
+Allow: /
+
+# Allow rendering assets
+Allow: /styles.css
+Allow: /script.js
+Allow: /images/
+
+# Disallow private, utility, and transaction paths
+Disallow: /admin/
+Disallow: /login/
+Disallow: /dashboard/
+Disallow: /api/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /*?*
+Disallow: /*.json$
+
+# XML Sitemap Location
+Sitemap: https://www.hawaiianharmonyofficial.us/sitemap.xml
